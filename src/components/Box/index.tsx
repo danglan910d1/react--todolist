@@ -1,11 +1,11 @@
 import { styled } from "@mui/material/styles";
-import MuiBox, { BoxProps } from "@mui/material/Box";
+import MBox, { BoxProps } from "@mui/material/Box";
 
-const CustomBox = styled(MuiBox)({
+const CustomBox = styled(MBox)({
   justifyContent: "center",
   alignItems: "center",
   marginY: "25px",
-}) as typeof MuiBox;
+}) as typeof MBox;
 
 interface TBoxProps extends BoxProps {}
 
